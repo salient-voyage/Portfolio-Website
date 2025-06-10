@@ -19,7 +19,7 @@ body {
 .page-wrapper {
     overflow: hidden;
 }
-/* Typography */
+
 .gradient-text {
     background: linear-gradient(120deg, var(--primary-color), var(--primary-dark));
     -webkit-background-clip: text;
@@ -36,7 +36,7 @@ body {
     font-size: 2.5rem;
 }
 
-/* Header & Navigation */
+
 .header-wrapper {
     background-color: #ffffff;
     position: sticky;
@@ -379,7 +379,7 @@ body {
 }
 
 
-/* Responsive Adjustments */
+
 @media (max-width: 991.98px) {
     .min-vh-80 {
         min-height: auto;
@@ -423,12 +423,12 @@ body {
     animation: fadeIn 0.8s ease forwards;
 }
 
-/* Scroll behavior */
+
 html {
     scroll-behavior: smooth;
 }
 
-/* Custom scrollbar */
+
 ::-webkit-scrollbar {
     width: 10px;
 }
